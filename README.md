@@ -6,8 +6,11 @@ The Observer design pattern is a behavioral design pattern that allows objects t
 ## Benefits of the Observer Design Pattern
 
 The Observer design pattern provides the following benefits:
+
 **1. Loose Coupling:** The subject and the observers have no direct dependency on each other. The subject only knows that it has attached observers, not their specific types.
+
 **2. Flexibility:** New observers can be added and existing ones can be removed from the subject without affecting the subject or the other observers.
+
 **3. Event-driven Architecture:** The Observer pattern allows for an event-driven architecture, where the subject can notify its observers whenever an interesting event occurs.
 
 ## Example Implementation
